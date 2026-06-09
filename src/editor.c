@@ -14,7 +14,7 @@ void addShape(Shape s)
         objects[count]=s;
         count++;
 
-        printf("Shape stored. Count = %d\n",count);
+        
     }
 }
 
@@ -42,7 +42,7 @@ void modifyShape(int index, Shape s)
 }
 
 void redrawCanvas()
-{   printf("redraw canavs called");
+{   
     int i;
 
     initCanvas();
