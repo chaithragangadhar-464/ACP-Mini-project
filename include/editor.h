@@ -18,7 +18,7 @@ typedef struct {
 void addShape(Shape s);
 void deleteShape(int index);
 void modifyShape(int index,Shape s);
-void redrawcanvas();
+void redrawCanvas();
 void listShapes();
 
 #endif

@@ -6,8 +6,8 @@
 
 extern char canvas[ROWS][COLS];   // extern = this variable is defined somewhere else . im only declaring it here
 
-void initcanvas();
-void displaycanvas();
+void initCanvas();
+void displayCanvas();
 
 #endif  
 
